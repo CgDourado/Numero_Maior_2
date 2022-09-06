@@ -1,0 +1,26 @@
+double n1 = 0;
+double n2 = 0;
+double n3 = 0;
+Console.WriteLine("Digite o n1:");
+n1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite o n2:");
+n2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite o n3");
+n3 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine($"Os números digitados são, {n1} , {n2} e {n3}");
+if (n1 == n2 || n1 == n3)
+{
+    Console.WriteLine("Os números são iguais");
+}
+if (n1 > n2 && n1 > n3)
+{
+    Console.WriteLine($"O numero {n1} é maior");
+}
+if (n2 > n1 && n2 > n3)
+{
+    Console.WriteLine($"O numero {n2} é maior");
+}
+else if (n3 > n1 && n3 > n2)
+{
+    Console.WriteLine($"O numero {n3} é maior");
+}
